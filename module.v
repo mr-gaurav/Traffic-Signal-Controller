@@ -1,6 +1,5 @@
 `timescale 1ns / 1ps
-`define Y2RDELAY 3    // to control  delay 
-`define R2GDELAY 2
+
 module traffic_signal(highway, country_road, signal, clear, clk);       //signal=1 if car come in country road
     output reg [2:0] highway, country_road;
     input signal, clear, clk;
